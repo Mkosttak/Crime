@@ -1,0 +1,33 @@
+[
+  {
+    "id": "case2",
+    "title": "Gece Yarısı Cinayeti",
+    "description": "Ünlü bir sanatçı kendi evinde ölü bulundu. Odadaki tablo eksik ve kapılar içeriden kilitli. Katil nasıl kaçtı? Saklı geçitleri keşfedin ve şifreli mesajları çözün.",
+    "difficulty": "medium",
+    "requiredFocusPoints": 8,
+    "location": "Villa Rosetta",
+    "rewardExperience": 35,
+    "evidence": [
+      {"name": "Şifreli Mektup", "description": "Sanki eski bir alfabe ile yazılmış gibi görünüyor."},
+      {"name": "Eksik Tablo Çerçevesi", "description": "Boş çerçeve, değerli bir eserin izlerini taşıyor."},
+      {"name": "Gizemli Anahtar", "description": "Bu anahtar hangi kilidi açar acaba?"}
+    ],
+    "suspects": [
+      {"name": "Marcus Fontaine", "relationship": "Sanat Tüccarı", "motive": "Mali anlaşmazlık"},
+      {"name": "Isabella Cruz", "relationship": "Asistan", "motive": "Miras anlaşmazlığı"},
+      {"name": "Vincent Grey", "relationship": "Eski Ortak", "motive": "İş düşmanlığı"}
+    ],
+    "witnesses": [
+      {"name": "George Butler", "statement": "Gece yarısından önce garip sesler duydum."},
+      {"name": "Maria Santos", "statement": "Bir arabanın uzaklaştığını gördüm, plakasını hatırlamıyorum."}
+    ],
+    "crimeSceneReport": {
+      "observations": "Oda düzenli, sadece tablo eksik. Kapılar içeriden kilitli bulundu.",
+      "foundItems": ["Kan İzi", "Bilinmeyen Parmak İzi", "Saç Teli"]
+    },
+    "autopsyReport": {
+      "causeOfDeath": "Künt travma",
+      "timeOfDeath": "23:30 - 00:30 arası"
+    }
+  }
+]

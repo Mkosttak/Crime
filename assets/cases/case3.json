@@ -1,0 +1,32 @@
+[
+  {
+    "id": "case3",
+    "title": "Kayıp Müze Hazinesi",
+    "description": "Şehrin en değerli eseri müzeden çalındı. Güvenlik kameraları gizemli bir şekilde çalışmıyordu. İçeriden yardım alan biri var mı? İpuçlarını takip edin ve gerçeği ortaya çıkarın.",
+    "difficulty": "easy",
+    "requiredFocusPoints": 5,
+    "location": "Kent Müzesi",
+    "rewardExperience": 25,
+    "evidence": [
+      {"name": "Güvenlik Kayıtları", "description": "Kritik anlarda kayıtlar kesilmiş."},
+      {"name": "Çalışan Kartı", "description": "Zeminde unutulmuş bir kimlik kartı."},
+      {"name": "Ayak İzi", "description": "Taze bir ayak izi, boyutu 42 numara gibi görünüyor."}
+    ],
+    "suspects": [
+      {"name": "Tom Mitchell", "relationship": "Güvenlik Görevlisi", "motive": "Finansal sıkıntı"},
+      {"name": "Sarah Kim", "relationship": "Müze Rehberi", "motive": "Bilinmiyor"},
+      {"name": "David Chen", "relationship": "Temizlik Görevlisi", "motive": "Ailevi problemler"}
+    ],
+    "witnesses": [
+      {"name": "Jessica Brown", "statement": "Geç saatlerde müzede ışık gördüm."},
+      {"name": "Robert Wilson", "statement": "Bir van'ın acelece uzaklaştığını fark ettim."}
+    ],
+    "crimeSceneReport": {
+      "observations": "Sergi vitrini dikkatli bir şekilde açılmış, zorla kırılmamış.",
+      "foundItems": ["Eldiven İzi", "Küçük Cam Parçacık", "Yabancı DNA"]
+    },
+    "autopsyReport": {
+      "findings": "Fiziksel şiddet bulgusu yok, profesyonel iş"
+    }
+  }
+]

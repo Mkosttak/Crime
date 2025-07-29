@@ -1,0 +1,30 @@
+[
+  {
+    "id": "case1",
+    "title": "The Mysterious Disappearance",
+    "description": "A renowned scientist vanishes under strange circumstances. What happened in his laboratory?
+     Uncover hidden clues and decipher encrypted diaries to find the answers.",
+    "difficulty": "hard",
+    "requiredFocusPoints": 10,
+    "location": "Secret Laboratory",
+    "rewardExperience": 50,
+    "evidence": [
+      {"name": "Encrypted Diary", "description": "Contains secret notes in a mysterious code."},
+      {"name": "Broken Flask", "description": "Shattered glass with traces of an unknown substance."}
+    ],
+    "suspects": [
+      {"name": "Dr. Emily Star", "relationship": "Colleague", "motive": "Professional rivalry"},
+      {"name": "Jack Warden", "relationship": "Security Guard", "motive": "Financial issues"}
+    ],
+    "witnesses": [
+      {"name": "Claire Haze", "statement": "I remember seeing a shadowy figure leaving the lab late at night."}
+    ],
+    "crimeSceneReport": {
+      "observations": "The lab was in disarray, with papers scattered and equipment damaged.",
+      "foundItems": ["Chemical Residue", "Footprint"]
+    },
+    "autopsyReport": {
+      "causeOfDisappearance": "Unknown"
+    }
+  }
+]
